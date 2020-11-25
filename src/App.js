@@ -1,11 +1,11 @@
-
-import Signup from './components/pages/Signup';
-
+import Signup from "./pages/Signup";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Signup/>
+      <Navbar />
+      <Signup />
     </div>
   );
 }
