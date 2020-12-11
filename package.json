@@ -1,8 +1,9 @@
 {
+  "homepage" :"https://denizozmen.github.io/01-react-profile-web/",
   "name": "01-react-profile-web",
   "version": "0.1.0",
   "private": true,
-  "homepage" :"https://denizozmen.github.io/01-react-profile-web/",
+  
   "dependencies": {
     "@material-ui/core": "^4.11.1",
     "@material-ui/icons": "^4.9.1",
@@ -23,7 +24,7 @@
     "yup": "^0.31.0"
   },
   "scripts": {
-    "predeploy":"num run build",
+    "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
 
     "start": "react-scripts start",
