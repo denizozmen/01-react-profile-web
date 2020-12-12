@@ -27,3 +27,7 @@ yarn-error.log*
 .eslintcache
 .eslintcache
 // eslint-disable-next-line
+node_modules
+node_modules
+.bin
+.cache
