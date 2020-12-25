@@ -62,7 +62,7 @@ export default function Navbar() {
             <HomeIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            React Share
+            RootTeam
           </Typography>
           {currentUser ? (
             <div>
